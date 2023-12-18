@@ -16,7 +16,7 @@ public class EmailApp {
 
         int choice = -1;
         do {
-            System.out.println("\n*********\nENTER YOUR CHOICE\n1.Show Info\n2.Change Password"
+            System.out.println("\n***********\nENTER YOUR CHOICE\n1.Show Info\n2.Change Password"
                     + "\n3.Change Mailbox Capacity\n4.Set Alternate Email\n5.Store data in file\n6.Show file\n7.Exit");
             choice = s.nextInt();
             switch(choice) {
